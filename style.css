@@ -1,0 +1,93 @@
+body{
+     text-align: center;
+    padding-top: 22rem;
+    background-image: url("xx.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    padding: 50px 0px;
+    color: aliceblue;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.container h1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-field {
+    width: 35%;
+    padding: 10px 30px;
+    text-align: left;
+    color: #ffffff;
+    border-radius:30px;
+    border: 8px  #9a8989;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(-10px);
+    -webkit-backdrop-filter: blur(-10px);
+}
+.input-field:hover {
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.input-icons{
+        direction: rtl;
+        margin: 30px 1px;
+}
+.input-icons i {
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+
+.icon {
+    padding: 15px 15px;
+    min-width: 50px;
+    color: rgb(255, 255, 255);
+}
+span {
+    margin: 0px 5px;  
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.chbox{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 26em;
+}
+.container .inp .chbox a{
+    color:#ffffff ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .inp a{
+    color:#ffffff ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .inp input[type="submit"]{
+
+  background-color: #ffffff;
+  width: 35%;
+  font-size: 17px;
+  color: #281133c2;
+  height: 45px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
